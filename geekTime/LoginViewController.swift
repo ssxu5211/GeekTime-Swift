@@ -93,6 +93,7 @@ class LoginViewController: BaseViewController,ValidatesPhoneNumber,ValidatesPass
         loginBtn.setTitleColor(UIColor.white, for: .normal)
         
 //        loginBtn.backgroundColor = UIColor.hexColor(0xf8892e)
+        //通过状态设置背景图片，则会有高亮效果
         loginBtn.setBackgroundImage(UIColor.hexColor(0xf8892e).toImage(), for: .normal)
         
         loginBtn.layer.cornerRadius = 5
